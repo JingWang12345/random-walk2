@@ -1,0 +1,16 @@
+#my-canvas{
+  background-color: rgb(15, 2, 109);
+
+}
+html,body{
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color:#fafafa;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
