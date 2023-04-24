@@ -16,11 +16,12 @@ class Circle{
         ctx.fill()
         
 console.log(this.x);
+console.log(this.y);
     }
     
     changePosition(){
-        this.x += (Math.random()-Math.random())*10
-        this.y += (Math.random()-Math.random())*10
+        this.x += (Math.random()-Math.random())*100
+        this.y += (Math.random()-Math.random())*100
         if (this.x<=0) {
             this.x = 0;
         }
@@ -37,3 +38,5 @@ console.log(this.x);
     }
 }
 
+console.log(this.x);
+console.log(this.y);

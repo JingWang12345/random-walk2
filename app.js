@@ -13,19 +13,19 @@ function whiteRectangles() {
     // ctx.fillRect(0,0,283,myCanvas.height); 
     // ctx.fillRect(333,0,308,myCanvas.height);
     // ctx.fillRect(691,0,308,myCanvas.height);
+    circle.draw(ctx);
+    circle.changePosition();  
     window.requestAnimationFrame(whiteRectangles);
 }
 window.requestAnimationFrame(whiteRectangles);
 
 
 // function animation() {
-    setInterval(() => {
+//     setInterval(() => {
        
-        circle.draw(ctx);
-        circle.draw(ctx);
-        circle.changePosition();    
-    }, 10);
-console.log(circle);
+        
+//     }, 10);
+// console.log(circle);
 // window.requestAnimationFrame(animation);   
 // }
 // window.requestAnimationFrame(animation);  
